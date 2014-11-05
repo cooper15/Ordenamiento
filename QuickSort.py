@@ -4,9 +4,10 @@ __author__ = 'cooper15'
 class QuickSort:
     def __init__(self):
         pass
+    # Los parámetros p_inferior y p_superior representan los valores extremos de la lista o sublista.
 
     def ordenamiento(self, lista_a_ordenar, p_inferior, p_superior):
-        pivote = lista_a_ordenar[p_superior/2]
+        pivote = lista_a_ordenar[p_superior/2]  # Se escoje un valor central como pivote.es mala idea tomar los extremos
         i_izquierdo = p_inferior
         j_derecho = p_superior
         while i_izquierdo < j_derecho:
