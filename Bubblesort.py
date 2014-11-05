@@ -2,7 +2,11 @@ __author__ = 'cooper15'
 
 
 class OrdemanientoBurbuja:
+    def __init__(self):
+        pass
+
     def ordenar(self, lista_a_ordenar):
+        """Compara cada elemento con su superior y se realiza el intercambio"""
         temporal = 0
         tamanio_lista = len(lista_a_ordenar)
         for i in range(0, tamanio_lista):
