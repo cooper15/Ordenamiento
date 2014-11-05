@@ -6,6 +6,7 @@ class InsertionSort:
         pass
 
     def insercion(self, lista_a_ordenar):
+        """Ver definicion de algoritmo por inserción"""
         tamanio = len(lista_a_ordenar)
         for i in range(1, tamanio):
             temporal = lista_a_ordenar[i]
